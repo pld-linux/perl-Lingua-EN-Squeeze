@@ -5,7 +5,7 @@ Summary:	Lingua::EN::Squeeze perl module
 Summary(pl):	Modu³ perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	1998.1204
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
