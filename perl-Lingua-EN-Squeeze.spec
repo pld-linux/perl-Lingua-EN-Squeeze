@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	2003.1003
 Release:	1
-License:	GPL
+# same as perl or GPL v2
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b9348fcfaa964c6879711cd223635970
