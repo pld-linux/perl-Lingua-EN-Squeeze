@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	EN-Squeeze
+%define		pdir	Lingua
+%define		pnam	EN-Squeeze
 Summary:	Lingua::EN::Squeeze perl module
 Summary(pl):	Modu³ perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
