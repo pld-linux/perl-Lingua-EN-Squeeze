@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Squeeze
-Summary:	Lingua-EN-Squeeze perl module
-Summary(pl):	Modu³ perla Lingua-EN-Squeeze
+Summary:	Lingua::EN::Squeeze perl module
+Summary(pl):	Modu³ perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	1998.1204
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Squeeze - Shorten text to minimum syllables.
+Lingua::EN::Squeeze - Shorten text to minimum syllables.
 
 %description -l pl
-Lingua-EN-Squeeze - skraca tekst w jêzyku angielskim do jak
+Lingua::EN::Squeeze - skraca tekst w jêzyku angielskim do jak
 najmniejszej liczby sylab tak, by pozostawa³ wci±¿ czytelny.
 
 %prep
