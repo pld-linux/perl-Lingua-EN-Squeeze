@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Squeeze
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua-EN-Squeeze perl module
 Summary(pl):	Modu³ perla Lingua-EN-Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	1998.1204
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Lingua-EN-Squeeze - skraca tekst w jêzyku angielskim do jak
 najmniejszej liczby sylab tak, by pozostawa³ wci±¿ czytelny.
 
 %prep
-%setup -q -n Lingua-EN-Squeeze-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
