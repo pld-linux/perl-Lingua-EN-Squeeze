@@ -27,7 +27,7 @@ najmniejszej liczby sylab tak, by pozostawa³ wci±¿ czytelny.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
