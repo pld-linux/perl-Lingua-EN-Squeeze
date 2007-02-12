@@ -2,7 +2,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Squeeze
 Summary:	Lingua::EN::Squeeze perl module
-Summary(pl):	Modu³ perla Lingua::EN::Squeeze
+Summary(pl.UTF-8):   ModuÅ‚ perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	2003.1003
 Release:	1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lingua::EN::Squeeze - Shorten text to minimum syllables.
 
-%description -l pl
-Lingua::EN::Squeeze - skraca tekst w jêzyku angielskim do jak
-najmniejszej liczby sylab tak, by pozostawa³ wci±¿ czytelny.
+%description -l pl.UTF-8
+Lingua::EN::Squeeze - skraca tekst w jÄ™zyku angielskim do jak
+najmniejszej liczby sylab tak, by pozostawaÅ‚ wciÄ…Å¼ czytelny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
