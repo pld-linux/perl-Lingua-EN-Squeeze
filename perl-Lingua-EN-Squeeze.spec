@@ -2,7 +2,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Squeeze
 Summary:	Lingua::EN::Squeeze perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::EN::Squeeze
+Summary(pl.UTF-8):	Moduł perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
 Version:	2003.1003
 Release:	1
