@@ -4,13 +4,13 @@
 Summary:	Lingua::EN::Squeeze perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::Squeeze
 Name:		perl-Lingua-EN-Squeeze
-Version:	2003.1003
-Release:	2
+Version:	2006.0704
+Release:	1
 # same as perl or GPL v2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b9348fcfaa964c6879711cd223635970
+# Source0-md5:	1428d6e2fdce88b625bba291d5619096
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
